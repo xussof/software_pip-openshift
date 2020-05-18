@@ -4,4 +4,4 @@
   pip:
     name: "openshift"
     state: present
-    executable: pip3.7
+    executable: pip3
