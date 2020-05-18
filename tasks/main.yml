@@ -1,0 +1,7 @@
+---
+- name: Installing openshift packages using pip
+  become: true
+  pip:
+    name: "openshift"
+    state: present
+    executable: pip3.3
